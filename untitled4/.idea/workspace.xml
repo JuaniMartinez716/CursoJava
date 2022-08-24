@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0adea91f-317b-4a2b-b505-10068ac83ec7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tp04/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tp05/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tp06/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cursoJavaLab.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +101,7 @@
     </configuration>
     <configuration name="Tp05.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tp05.main" />
-      <module name="untitled4" />
+      <module name="cursoJavaLab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -120,7 +115,7 @@
     </configuration>
     <configuration name="Tp06.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tp06.main" />
-      <module name="untitled4" />
+      <module name="cursoJavaLab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -140,7 +135,7 @@
     </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
-      <module name="untitled4" />
+      <module name="cursoJavaLab" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
