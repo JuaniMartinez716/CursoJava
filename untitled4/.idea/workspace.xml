@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main.java" line="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0adea91f-317b-4a2b-b505-10068ac83ec7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/untitled4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cursoJavaLab.iml" afterDir="false" />
-    </list>
+    <list default="true" id="0adea91f-317b-4a2b-b505-10068ac83ec7" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,11 +84,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/juani/OneDrive/Documents/GitHub/CursoJava/untitled4/src"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Tp06.main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
