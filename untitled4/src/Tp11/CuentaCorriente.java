@@ -1,22 +1,39 @@
 package Tp11;
 
+
 public class CuentaCorriente {
 
-    public void depositar(Cliente cliente, double saldo){
-        cliente.setSaldo(cliente.getSaldo() + saldo);
-        System.out.println("Saldo actual: " + cliente.getSaldo());
+    private double saldo;
+    private String nombreTitular;
+    private long numeroCuenta;
+
+    public CuentaCorriente(double saldo, String nombreTitular) {
+        this.saldo = saldo;
+        this.nombreTitular = nombreTitular;
     }
 
-    public void retirar(Cliente cliente, double saldo){
-        cliente.setSaldo(cliente.getSaldo() - saldo);
-        System.out.println("Saldo actual: " + cliente.getSaldo());
+    public double getSaldo() {
+        return this.saldo;
     }
 
-    public void transferencia(Cliente cliente1,Cliente cliente2, double saldo){
-        cliente1.setSaldo(cliente1.getSaldo()- saldo);
-        cliente2.setSaldo(cliente2.getSaldo()+saldo);
-        System.out.println("Se transfirio la cantidad de: $"+saldo+" a la cuenta "+cliente2+" desde la cuenta "+cliente1);
+    public String getDatos() {
+        double aleat= Math.random()*1000000000;
+        long l = (new Double(aleat).longValue());
+        String datos = "Nombre de Titular: "+nombreTitular+"\nNumero de cuenta: "+l;
+        return datos;
     }
 
+    public void setIngreso(int monto,CuentaCorriente cuenta){
+        this.saldo = cuenta.getSaldo()+ monto;
+    }
+    public void setRetiro(int monto,CuentaCorriente cuenta){
+        this.saldo = cuenta.getSaldo()- monto;
+    }
+
+
+    public void transferencia(int monto, CuentaCorriente c1, CuentaCorriente c2){
+        c1.setIngreso(monto, c1);
+        c2.setRetiro(monto, c2);
+    }
 
 }

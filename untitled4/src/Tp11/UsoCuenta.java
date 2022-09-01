@@ -1,13 +1,33 @@
 package Tp11;
 
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 public class UsoCuenta {
 
     public static void main(String[] args) {
-        //INSTANCIAR UN OBJETO
-        Cliente cuenta1 = new Cliente("Juan Perez", 2000000);
-        Cliente cuenta2 = new Cliente("Antonio Martinez", 50000);
 
-        cuenta1.tr
+        CuentaCorriente cuenta1 = new CuentaCorriente(40000, "Juan");
+        CuentaCorriente cuenta2 = new CuentaCorriente(22500, "Antonio");
+
+        System.out.println("-----------------------------------------------------------------------");
+        System.out.println(cuenta1.getDatos());
+        System.out.println("Saldo Cuenta 1: "+cuenta1.getSaldo());
+        System.out.println("-----------------------------------------------------------------------");
+        System.out.println(cuenta2.getDatos());
+        System.out.println("Saldo Cuenta 2: "+cuenta2.getSaldo());
+        System.out.println("-----------------------------------------------------------------------");
+
+        cuenta1.transferencia(2500,cuenta1,cuenta2);
+
+        System.out.println("TRANFERENCIA REALIZADA CON EXITO");
+        System.out.println("Saldos actuales:");
+        System.out.println("-----------------------------------------------------------------------");
+        System.out.println(cuenta1.getDatos());
+        System.out.println("Saldo Cuenta 1: "+cuenta1.getSaldo());
+        System.out.println("-----------------------------------------------------------------------");
+        System.out.println(cuenta2.getDatos());
+        System.out.println("Saldo Cuenta 2: "+cuenta2.getSaldo());
+        System.out.println("-----------------------------------------------------------------------");
 
     }
 
